@@ -1,6 +1,6 @@
 import "./globals.css";
-import Navbar  from "../components/Navbar";
-
+import Navbar from "../components/general/Navbar";
+import Footer from "../components/general/Footer"; 
 // npm i @next/font
 import { Inter } from '@next/font/google';
 
@@ -20,14 +20,16 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${inter.variable}`}>
+      <body className={`${inter.variable} overflow-x-hidden`}>
         
-
-        <header className="justify-center">
+        <header className="flex justify-center my-6 top-6 sticky">
           <Navbar/>
         </header>
-        
+    
         {children}
+
+        <Footer/>
+
       </body>
     </html>
   );
