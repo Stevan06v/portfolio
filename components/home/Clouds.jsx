@@ -1,12 +1,13 @@
+'use client'
 import React from "react";
 import Cloud from "./Cloud";
 
+
 export default function Clouds() {
   return (
-
-      <div className="grid grid-cols-2 grid-rows-4 place-items-center">
-        
-        <section className="flex justify-center">
+    <div className="flex justify-center">
+      <div className="grid grid-cols-2 grid-rows-4">
+        <section className="flex ">
           <Cloud />
           <div className="text-left ml-[-35%] mt-[10%] z-[99]">
             <p className="font-black text-5xl text-black">Hello,</p>
@@ -16,12 +17,13 @@ export default function Clouds() {
               Stevan Vlajic
             </p>
           </div>
+        
         </section>
 
         <div></div>
         <div></div>
 
-        <section className="flex justify-center">
+        <section className="flex ">
           <div className="text-right mr-[-38%] mt-[15%] z-[99]">
             <p className="font-black text-5xl text-black">Feel free</p>
             <p className="font-black text-5xl text-black">to visit my</p>
@@ -33,7 +35,7 @@ export default function Clouds() {
           <Cloud />
         </section>
 
-        <section className="flex justify-center">
+        <section className="flex ">
           <Cloud />
           <div className="text-left ml-[-30%] mt-[10%] z-[99]">
             <p className="font-black text-5xl text-black">Get some,</p>
@@ -48,7 +50,7 @@ export default function Clouds() {
         <div></div>
         <div></div>
 
-        <section className="flex justify-center">
+        <section className="flex ">
           <div className="text-right mr-[-38%] mt-[15%] z-[99]">
             <p className="font-black text-5xl text-black">Make</p>
             <p className="font-black text-5xl text-black">my day</p>
@@ -60,6 +62,6 @@ export default function Clouds() {
           <Cloud />
         </section>
       </div>
-
+    </div>
   );
 }
