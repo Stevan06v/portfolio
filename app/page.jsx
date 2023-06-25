@@ -3,7 +3,7 @@ import Clouds from '../components/home/Clouds';
 
 export default function Home() {
   return (
-    <main className='flex justify-center'>
+    <main>
       <Clouds/>
     </main>
   );

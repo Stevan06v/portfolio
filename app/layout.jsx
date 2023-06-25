@@ -20,7 +20,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} overflow-x-hidden`}>
+      <body className={`${inter.variable} overflow-x-hidden m-0 p-0`}>
         
         <header className="flex justify-center my-6 top-6 sticky z-[100]">
           <Navbar/>
@@ -28,7 +28,7 @@ export default function RootLayout({ children }) {
     
         {children}
 
-        {/* <Footer/> */}
+        <Footer/>
 
       </body>
     </html>
