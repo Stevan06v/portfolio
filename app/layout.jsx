@@ -22,13 +22,13 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${inter.variable} overflow-x-hidden`}>
         
-        <header className="flex justify-center my-6 top-6 sticky">
+        <header className="flex justify-center my-6 top-6 sticky z-[100]">
           <Navbar/>
         </header>
     
         {children}
 
-        <Footer/>
+        {/* <Footer/> */}
 
       </body>
     </html>

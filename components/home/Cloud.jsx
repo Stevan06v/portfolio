@@ -7,8 +7,8 @@ export default function Cloud() {
     <div>
         <Image
             src="/cloud.png"
-            width={600}
-            height={600}
+            width={750}
+            height={800}
             alt="CLOUD"/>
     </div>
   )
