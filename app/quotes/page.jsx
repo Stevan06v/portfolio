@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from "next/image";
 
-function Certs() {
+export default function page() {
   return (
     <center>
     <Image
@@ -13,4 +13,3 @@ function Certs() {
   )
 }
 
-export default Certs
