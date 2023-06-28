@@ -20,7 +20,7 @@ export default function Clouds() {
           }}
         >
           <Link href="https://www.linkedin.com/in/vlajic-stevan-b67283281/" target="_blank" >
-            <section className="flex justify-center cursor-pointer ">
+            <section className="flex justify-center cursor-pointer">
               <Cloud />
               <div className="text-left ml-[-35%] mt-[10%] z-[9]">
                 <p className="font-black text-5xl text-black">Hello,</p>
