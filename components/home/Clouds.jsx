@@ -72,6 +72,7 @@ export default function Clouds() {
             delay: 0.4,
             ease: [0, 0.71, 0.2, 1.01]
           }}
+          whileHover={{ scale: 1.1, duration: 0.1}}
         >
           <Link href="/quotes">
             <section className="flex justify-center cursor-pointer">
