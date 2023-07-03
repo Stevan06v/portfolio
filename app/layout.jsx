@@ -3,7 +3,7 @@ import Navbar from "../components/general/Navbar";
 import Footer from "../components/general/Footer";
 import { Inter } from "@next/font/google";
 import ScrollProgress from "@/components/general/ScrollProgress";
-import TabBar from "@/components/about/TabBar";
+import TabBar from "@/components/about/general/TabBar";
 
 const inter = Inter({
   subsets: ["latin"],
