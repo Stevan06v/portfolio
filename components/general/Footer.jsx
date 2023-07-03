@@ -11,10 +11,10 @@ export default function Footer() {
         <h3 className="font-black text-2xl border-b-4 border-sky-300 mb-2">Contact</h3>
         <div className="font-bold">
           <div className="font-medium">
-            <li className="p-1 cursor-pointer rounded-md transition duration-150 ease-in-out hover:bg-sky-300 hover:text-white"><Link href="" target="_blank">PENIS</Link></li>
-            <li className="p-1 cursor-pointer rounded-md transition duration-150 ease-in-out hover:bg-sky-300 hover:text-white"><Link href="" target="_blank">PENIS</Link></li>
-            <li className="p-1 cursor-pointer rounded-md transition duration-150 ease-in-out hover:bg-sky-300 hover:text-white"><Link href="" target="_blank">PENIS</Link></li>
-            <li className="p-1 cursor-pointer rounded-md transition duration-150 ease-in-out hover:bg-sky-300 hover:text-white"><Link href="" target="_blank">PENIS</Link></li>
+            <li className="p-1 cursor-pointer rounded-md transition duration-150 ease-in-out hover:bg-sky-300 hover:text-white"><Link href="" target="_blank">06604669179</Link></li>
+            <li className="p-1 cursor-pointer rounded-md transition duration-150 ease-in-out hover:bg-sky-300 hover:text-white"><Link href="mailto:stevanvlajic.business@gmail.com" target="_blank">HIRE ME</Link></li>
+            <li className="p-1 cursor-pointer rounded-md transition duration-150 ease-in-out hover:bg-sky-300 hover:text-white"><Link href="" target="_blank">LINKEDIN</Link></li>
+            <li className="p-1 cursor-pointer rounded-md transition duration-150 ease-in-out hover:bg-sky-300 hover:text-white"><Link href="" target="_blank">XING</Link></li>
           </div>
         </div>
       </div>

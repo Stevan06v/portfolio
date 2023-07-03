@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from "next/image";
 
-function Links() {
+function Contacts() {
   return (
     <center>
     <Image
@@ -10,8 +10,7 @@ function Links() {
       height={200}
     />
     </center>
-
   )
 }
 
-export default Links
+export default Contacts

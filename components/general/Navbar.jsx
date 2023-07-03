@@ -8,6 +8,10 @@ export default function Navbar() {
   const currentPath = usePathname();
 
   function isActive(path) {
+    return currentPath.includes(path);
+  }
+  
+  function isHome(path) {
     return currentPath == path;
   }
 
@@ -15,7 +19,7 @@ export default function Navbar() {
     <nav className='inline-flex justify-center items-center px-6 py-3 rounded-full no-offset-shadow bg-white select-none'>
       
       <motion.div
-        className={`${isActive('/') ? 'bg-sky-300 text-white font-bold' : 'text-gray-600'} rounded-3xl px-5 py-2 font-bold`}
+        className={`${isHome('/') ? 'bg-sky-300 text-white font-bold' : 'text-gray-600'} rounded-3xl px-5 py-2 font-bold`}
         whileTap={{ scale: 1.2 }}
         transition={{ type: "spring", stiffness: 400, damping: 17 }}
       >
@@ -23,11 +27,11 @@ export default function Navbar() {
       </motion.div>
 
       <motion.div
-        className={`${isActive('/contact') ? 'bg-sky-300 text-white font-bold' : 'text-gray-600'} rounded-3xl px-5 py-2 font-bold`}
+        className={`${isActive('/about') ? 'bg-sky-300 text-white font-bold' : 'text-gray-600'} rounded-3xl px-5 py-2 font-bold`}
         whileTap={{ scale: 1.2 }}
         transition={{ type: "spring", stiffness: 400, damping: 17 }}
       >
-        <Link href="/contact" >Contact</Link>
+        <Link href="/about" >About</Link>
       </motion.div>
 
       <motion.div
@@ -40,11 +44,11 @@ export default function Navbar() {
 
 
       <motion.div
-        className={`${isActive('/links') ? 'bg-sky-300 text-white font-bold' : 'text-gray-600'} rounded-3xl px-5 py-2 font-bold`}
+        className={`${isActive('/contact') ? 'bg-sky-300 text-white font-bold' : 'text-gray-600'} rounded-3xl px-5 py-2 font-bold`}
         whileTap={{ scale: 1.2 }}
         transition={{ type: "spring", stiffness: 400, damping: 17 }}
       >
-        <Link href="/links" >Links</Link>
+        <Link href="/contact" >Contact</Link>
       </motion.div>
 
       <motion.div
