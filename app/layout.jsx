@@ -3,6 +3,7 @@ import Navbar from "../components/general/Navbar";
 import Footer from "../components/general/Footer";
 import { Inter } from "@next/font/google";
 import ScrollProgress from "@/components/general/ScrollProgress";
+import TabBar from "@/components/about/TabBar";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -23,6 +24,8 @@ export default function RootLayout({ children }) {
         <header className="flex justify-center my-6 top-6 sticky z-[10]">
           <Navbar />
         </header>
+        <TabBar />
+
         {children}
         <Footer />
       </body>

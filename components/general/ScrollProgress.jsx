@@ -10,7 +10,6 @@ function ScrollProgress() {
           className="bg-sky-300 fixed top-0 left-0 right-0 h-3 origin-left z-[11] no-offset-shadow"
           style={{ scaleX: scrollYProgress }}
       />
-
   )
 }
 
