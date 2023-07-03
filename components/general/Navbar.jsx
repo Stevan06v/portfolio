@@ -30,8 +30,6 @@ export default function Navbar() {
         <Link href="/contact" >Contact</Link>
       </motion.div>
 
-
-
       <motion.div
         className={`${isActive('/projects') ? 'bg-sky-300 text-white font-bold' : 'text-gray-600'} rounded-3xl px-5 py-2 font-bold`}
         whileTap={{ scale: 1.2 }}
