@@ -3,9 +3,14 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default function Footer() {
+  const currentDate = new Date();
+  const options = { day: "numeric", month: "short" };
+
   return (
     <footer className="flex gap-5 bg-sky-300 mt-auto py-5 justify-center items-center">
-      <h1 className="text-8xl text-white font-black">Footer</h1>
+      <h1 className="text-8xl text-white font-black">
+        {currentDate.toLocaleString("en-US", options).toUpperCase()}
+      </h1>
 
       <div className="flex flex-col rounded-lg bg-white py-4 px-10 w-60 text-left">
         <h3 className="font-black text-2xl border-b-4 border-sky-300 mb-2">
