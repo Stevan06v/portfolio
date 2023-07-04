@@ -59,7 +59,7 @@ export default function Description() {
             <p className="font-normal">
               I'm currently learing  <span className="font-bold">NextJS </span> and <span className="font-bold">Tailwind-CSS </span> because I love to stay up to date and 
               keep track of new technologies. <span className="font-bold">Steve Jobs </span> once said: "The only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle."
-              This quote <span className="font-bold">respresents perfectly my interests </span> and my current mindset. 
+              This quote <span className="font-bold">represents perfectly my interests </span> and my current mindset. 
             </p>
           </div>
 
@@ -69,10 +69,9 @@ export default function Description() {
             </h1>
             <p className="font-normal">
               This portfolio is  <span className="font-bold">currently under creation </span> and is fully created in <span className="font-bold">NextJS and Tailwind</span>, so there might be some bugs in it.
-              But all in all I think I've done a <span className="font-bold">pretty good job </span> creating it. So feel free to explore the it. Cheers, Stevan
+              But all in all I think I've done a <span className="font-bold">pretty good job </span> creating it. So feel free to explore the portfolio. Cheers, Stevan
             </p>
           </div>
-
         </div>
       </div>
     </section>
