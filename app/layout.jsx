@@ -22,9 +22,9 @@ export default function RootLayout({ children }) {
       <body className={`${inter.variable}`}>
         <ScrollProgress />
         <header className="flex justify-center my-6 top-6 sticky z-[10]">
-          {/* <Navbar /> */}
+          <Navbar />
         </header>
-        {/* <TabBar /> */}
+        <TabBar />
 
         {children}
         {/* <Footer /> */}
