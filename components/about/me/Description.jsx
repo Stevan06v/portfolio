@@ -39,11 +39,11 @@ export default function Description() {
             </p>
           </div>
           <Image
-            className="rounded-3xl w-full 2xl:w-auto md:w-7/12 lg:w-8/12 sm:w-7/12 min-[320px]:w-8/12"
+            className="rounded-3xl w-full 2xl:w-[50%] md:w-7/12 lg:w-8/12 sm:w-7/12 min-[320px]:w-8/12"
             src="/me.png"
             alt="stevan vlajic"
             width={400}
-            height={600}
+            height={200}
           />
         </div>
 

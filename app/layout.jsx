@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
         <header className="flex justify-center my-6 top-6 sticky z-[10]">
           <Navbar />
         </header>
-        {/* <TabBar /> */}
+        <TabBar />
 
         {children}
         {/* <Footer /> */}
