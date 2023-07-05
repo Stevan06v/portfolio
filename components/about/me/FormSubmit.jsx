@@ -4,8 +4,8 @@ export default function FormSubmit() {
   return (
     <section className="my-14 p-24">
       <div className="flex justify-center items-center gap-16">
-        <div className="flex items-center gap-5 border-4 p-20 no-offset-shadow border-[#E8F0FE] rounded-2xl">
-          <div>
+        <div className="flex items-center gap-5 ">
+          <div className="gap-5 border-4 p-20 no-offset-shadow border-[#E8F0FE] rounded-2xl">
             <h1 className="font-black text-4xl border-b-4 border-[#FFA7CF] mb-3 text-left">
               Hire me via form:{" "}
             </h1>
@@ -80,7 +80,7 @@ export default function FormSubmit() {
           </div>
         </div>
 
-        <div className=" gap-5 border-4 p-20 no-offset-shadow border-[#E8F0FE] rounded-2xl">
+        <div className="gap-5 border-4 p-20 no-offset-shadow border-[#E8F0FE] rounded-2xl">
           <h1 className="text-left font-black text-4xl border-b-4 border-sky-300 mb-3 ">
             Write me directly:{" "}
           </h1>

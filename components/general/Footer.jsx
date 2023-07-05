@@ -7,7 +7,7 @@ export default function Footer() {
   const options = { day: "numeric", month: "short" };
 
   return (
-    <footer className="flex gap-5 bg-sky-300 mt-auto py-5 justify-center items-center">
+    <footer className="flex gap-5 bg-sky-300 mt-auto py-5 justify-center items-center sm:flex-col sm:gap-0">
       <h1 className="text-8xl text-white font-black">
         {currentDate.toLocaleString("en-US", options).toUpperCase()}
       </h1>
