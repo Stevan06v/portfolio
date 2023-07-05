@@ -2,11 +2,11 @@ import React from "react";
 
 export default function FormSubmit() {
   return (
-    <section className="w-fit m-auto my-5">
-      <div className="flex justify-center gap-16">
-        <div className="flex justify-center items-center gap-5">
+    <section className="my-14 p-24">
+      <div className="flex justify-center items-center gap-16">
+        <div className="flex items-center gap-5 border-4 p-20 no-offset-shadow border-[#E8F0FE] rounded-2xl">
           <div>
-            <h1 className="flex justify-center font-black text-5xl border-b-4 border-[#FFA7CF] mb-3">
+            <h1 className="font-black text-4xl border-b-4 border-[#FFA7CF] mb-3 text-left">
               Hire me via form:{" "}
             </h1>
             <form
@@ -58,9 +58,7 @@ export default function FormSubmit() {
                   >
                     <option className="font-medium">Job</option>
                     <option className="font-medium">Internship</option>
-                  </select>
-
-                  
+                  </select>  
                 </div>
                 <br />
               </div>
@@ -82,11 +80,11 @@ export default function FormSubmit() {
           </div>
         </div>
 
-        <div>
-          <h1 className="flex justify-center font-black text-5xl border-b-4 border-sky-300 mb-3 ">
+        <div className=" gap-5 border-4 p-20 no-offset-shadow border-[#E8F0FE] rounded-2xl">
+          <h1 className="text-left font-black text-4xl border-b-4 border-sky-300 mb-3 ">
             Write me directly:{" "}
           </h1>
-          <h2 className="font-bold text-2xl border-b-4 border-[#9AE6E1]">
+          <h2 className="font-bold text-xl border-b-4 border-[#9AE6E1]">
             Contact Information
           </h2>
 
