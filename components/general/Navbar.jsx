@@ -11,15 +11,15 @@ export default function Navbar() {
   }
 
   function isHome(path) {
-    return currentPath == path;
+    return currentPath === path;
   }
 
   return (
-    <nav className="inline-flex justify-center items-center px-6 py-3 rounded-full no-offset-shadow bg-white select-none">
+    <nav className="flex justify-center items-center px-3 py-2 rounded-full no-offset-shadow bg-white select-none 2xl:text-base 2xl:px-6 2xl:py-3 sm:text-sm md:text-base lg:text-base xl:text-base min-w-[320px]">
       <motion.div
         className={`${
           isHome("/") ? "bg-sky-300 text-white font-bold" : "text-gray-600"
-        } rounded-3xl px-5 py-2 font-bold`}
+        } rounded-full px-2 py-1 font-bold sm:px-1.5 sm:py-1 lg:px-2 lg:py-1 sm:text-xs md:text-base lg:text-base xl:text-base 2xl:text-base 2xl:px-5 2xl:py-2`}
         whileTap={{ scale: 1.2 }}
         transition={{ type: "spring", stiffness: 400, damping: 17 }}
       >
@@ -31,7 +31,7 @@ export default function Navbar() {
           isActive("/about")
             ? "bg-sky-300 text-white font-bold"
             : "text-gray-600"
-        } rounded-3xl px-5 py-2 font-bold`}
+        } rounded-full px-2 py-1 font-bold sm:px-1.5 sm:py-1 lg:px-2 lg:py-1 sm:text-xs md:text-base lg:text-base xl:text-base 2xl:text-base 2xl:px-5 2xl:py-2`}
         whileTap={{ scale: 1.2 }}
         transition={{ type: "spring", stiffness: 400, damping: 17 }}
       >
@@ -43,7 +43,7 @@ export default function Navbar() {
           isActive("/projects")
             ? "bg-sky-300 text-white font-bold"
             : "text-gray-600"
-        } rounded-3xl px-5 py-2 font-bold`}
+        } rounded-full px-2 py-1 font-bold sm:px-1.5 sm:py-1 lg:px-2 lg:py-1 sm:text-xs md:text-base lg:text-base xl:text-base 2xl:text-base 2xl:px-5 2xl:py-2`}
         whileTap={{ scale: 1.2 }}
         transition={{ type: "spring", stiffness: 400, damping: 17 }}
       >
@@ -55,7 +55,7 @@ export default function Navbar() {
           isActive("/contact")
             ? "bg-sky-300 text-white font-bold"
             : "text-gray-600"
-        } rounded-3xl px-5 py-2 font-bold`}
+        } rounded-full px-2 py-1 font-bold sm:px-1.5 sm:py-1 lg:px-2 lg:py-1 sm:text-xs md:text-base lg:text-base xl:text-base 2xl:text-base 2xl:px-5 2xl:py-2`}
         whileTap={{ scale: 1.2 }}
         transition={{ type: "spring", stiffness: 400, damping: 17 }}
       >
@@ -67,7 +67,7 @@ export default function Navbar() {
           isActive("/certs")
             ? "bg-sky-300 text-white font-bold"
             : "text-gray-600"
-        } rounded-3xl px-5 py-2 font-bold`}
+        } rounded-full px-2 py-1 font-bold sm:px-1.5 sm:py-1 lg:px-2 lg:py-1 sm:text-xs md:text-base lg:text-base xl:text-base 2xl:text-base 2xl:px-5 2xl:py-2`}
         whileTap={{ scale: 1.2 }}
         transition={{ type: "spring", stiffness: 400, damping: 17 }}
       >

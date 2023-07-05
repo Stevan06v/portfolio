@@ -12,7 +12,7 @@ export default function Description() {
   };
   return (
     <section>
-      <div className="flex my-16 flex-wrap justify-center items-center gap-4">
+      <div className="flex my-16 flex-wrap justify-center items-center">
         <div className="flex justify-center">
           <div className="text-left mr-[-25%] z-[9] min-[320px]:mr-[-35%] 2xl:mr-[-25%] xl:mr-[-25%] lg:mr-[-25%] md:mr-[-25%]">
             <p className="font-black text-4xl text-black 2xl:text-5xl min-[320px]:text-2xl lg:text-5xl md:text-5xl">Hello,</p>
